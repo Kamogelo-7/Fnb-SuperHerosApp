@@ -1,4 +1,5 @@
-# 🦸‍♂️ Superheroes Frontend Project
+#FNB | SuperHeros App
+# #🦸‍♂️ Superheroes Frontend Project
 
 This project is part of the **FNB App Academy** challenge, designed to allow junior, intermediate, and senior software developers to showcase their frontend development skills. The project focuses on creating a superhero-themed web application using HTML, CSS, and JavaScript.
 
