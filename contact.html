@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact the Avengers team for questions, feedback or fan letters."
+    />
+    <meta
+      name="keywords"
+      content="Avengers, Superheroes, Contact, Email, Form"
+    />
+    <meta name="author" content="Kamogelo mogasoa" />
+    <title>Contact | Superheroes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" role="banner">
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <!-- From Uiverse.io by chicogale -->
+        <div class="neo-toggle-container">
+          <input class="neo-toggle-input" id="neo-toggle" type="checkbox" />
+          <label class="neo-toggle" for="neo-toggle">
+            <div class="neo-track">
+              <div class="neo-background-layer"></div>
+              <div class="neo-grid-layer"></div>
+              <div class="neo-spectrum-analyzer">
+                <div class="neo-spectrum-bar"></div>
+                <div class="neo-spectrum-bar"></div>
+                <div class="neo-spectrum-bar"></div>
+                <div class="neo-spectrum-bar"></div>
+                <div class="neo-spectrum-bar"></div>
+              </div>
+              <div class="neo-track-highlight"></div>
+            </div>
+
+            <div class="neo-thumb">
+              <div class="neo-thumb-ring"></div>
+              <div class="neo-thumb-core">
+                <div class="neo-thumb-icon">
+                  <div class="neo-thumb-wave"></div>
+                  <div class="neo-thumb-pulse"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="neo-gesture-area"></div>
+
+            <div class="neo-interaction-feedback">
+              <div class="neo-ripple"></div>
+              <div class="neo-progress-arc"></div>
+            </div>
+
+            <div class="neo-status">
+              <div class="neo-status-indicator">
+                <div class="neo-status-dot"></div>
+                <div class="neo-status-text"></div>
+              </div>
+            </div>
+          </label>
+        </div>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="about.html" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero__title">Contact The Avengers</h1>
+    </section>
+
+    <main class="main-content">
+      <section class="contact">
+        <form class="contact__form" aria-label="Contact form">
+          <div class="contact__group">
+            <label for="name" class="contact__label">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="contact__input"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="contact__group">
+            <label for="email" class="contact__label">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="contact__input"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div class="contact__group">
+            <label for="message" class="contact__label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="contact__textarea"
+              placeholder="Write your message"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact__button">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Avengers Archive. All rights reserved.</p>
+    </footer>
+    <script src="/week2_Superhero_App/js/main.js" defer type="module"></script>
+  </body>
+</html>
