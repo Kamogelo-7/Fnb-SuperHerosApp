@@ -18,12 +18,9 @@ Coming Soon – (You can host it with GitHub Pages, Netlify, or Vercel)
 ## 📁 Project Structure
 
 ```plaintext
-superheroes-app/
-│
 ├── index.html          # Homepage
 ├── about.html          # About the project and its mission
 ├── contact.html        # Contact form page
 ├── styles.css          # All main page styles
-├── global.css          # Global reusable styles
 ├── /assets             # Images, icons, fonts
 └── README.md           # Project documentation
