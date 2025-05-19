@@ -18,9 +18,10 @@ Coming Soon – (You can host it with GitHub Pages, Netlify, or Vercel)
 ## 📁 Project Structure
 
 ```plaintext
-├── index.html          # Homepage
+├── /assets             # Images, icons, fonts
+├──/js                  # main.js
 ├── about.html          # About the project and its mission
 ├── contact.html        # Contact form page
+├── index.html          # Homepage
 ├── styles.css          # All main page styles
-├── /assets             # Images, icons, fonts
 └── README.md           # Project documentation
